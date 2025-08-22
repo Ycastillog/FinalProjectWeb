@@ -17,4 +17,3 @@ $path = '/' . ltrim($path, '/');
 require __DIR__ . '/../src/Router.php';
 $router = new \App\Router();
 $router->run($path);
-

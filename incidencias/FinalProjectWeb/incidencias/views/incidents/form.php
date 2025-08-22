@@ -13,10 +13,6 @@
     <input type="datetime-local" name="occurred_at" value="<?= date('Y-m-d\TH:i') ?>">
   </label>
 
-  <label>Fecha de seguimiento (agenda)
-    <input type="datetime-local" name="follow_up_at">
-  </label>
-
   <label>Provincia
     <select name="province_id">
       <option value="">—</option>

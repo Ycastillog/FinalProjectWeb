@@ -16,3 +16,4 @@ class CommentController {
     header('Location: /incidencias/public/incidents'); exit;
   }
 }
+

@@ -21,14 +21,6 @@ class Router {
                 require __DIR__.'/Controllers/IncidentController.php';
                 (new \App\Controllers\IncidentController())->store(); break;
 
-            case '/incidents/agenda':
-                require __DIR__.'/Controllers/IncidentController.php';
-                (new \App\Controllers\IncidentController())->agenda(); break;
-
-            case '/incidents/mark-done':
-                require __DIR__.'/Controllers/IncidentController.php';
-                (new \App\Controllers\IncidentController())->markDone(); break;
-
             case '/comments/store':
                 require __DIR__.'/Controllers/CommentController.php';
                 (new \App\Controllers\CommentController())->store(); break;
@@ -66,3 +58,4 @@ class Router {
         }
     }
 }
+

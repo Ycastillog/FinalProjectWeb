@@ -18,3 +18,4 @@ class CorrectionController {
     header('Location: /incidencias/public/incidents'); exit;
   }
 }
+

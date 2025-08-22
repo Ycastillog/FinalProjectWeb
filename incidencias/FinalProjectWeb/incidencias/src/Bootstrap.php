@@ -18,3 +18,4 @@ class Bootstrap {
         return $env[$key] ?? $default;
     }
 }
+

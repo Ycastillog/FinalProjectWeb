@@ -21,7 +21,6 @@
       <a href="/incidencias/public/">Inicio</a>
       <a href="/incidencias/public/incidents">Incidencias</a>
       <a href="/incidencias/public/incidents/new">Reportar</a>
-      <a href="/incidencias/public/incidents/agenda">Agenda</a>
       <a href="/incidencias/public/super">/super</a>
     </nav>
     <hr>
